@@ -1,0 +1,73 @@
+body{
+    background-image: url(../images/ships.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    text-align: center;
+}
+
+.container{
+    display:grid;
+    grid-template-rows:120px 120px 120px ;
+    grid-template-columns:120px 120px 120px ;
+    justify-content: center;
+    }
+
+    .item1{
+    background-color:rgba(211, 211, 211, 0.75) ;
+    border:solid 2px navy;
+    
+}
+    .item2{
+    background-color:rgba(211, 211, 211, 0.75) ;
+    border:solid 2px navy;
+    
+}
+    .item3{
+    background-color:rgb(211, 211, 211, .75) ;
+    border:solid 2px navy;
+     
+}
+    .item4{
+    
+    border:solid 2px navy; 
+    background-color:rgba(211, 211, 211, 0.75) ;
+}
+    .item5{
+    
+    border:solid 2px navy;
+    background-color:rgba(211, 211, 211, 0.75) ;
+}
+    .item6{
+    
+    border:solid 2px navy;
+    background-color:rgba(211, 211, 211, 0.75) ;
+}
+    .item7{
+    
+    border:solid 2px navy;
+    background-color:rgba(211, 211, 211, 0.75) ;
+}
+    .item8{
+    background-color:rgba(211, 211, 211, 0.75) ;
+    border:solid 2px navy;
+}
+    .item9{
+  background-color:rgba(211, 211, 211, 0.75) ;
+    border:solid 2px navy;
+}
+#rules{
+    text-align: center;
+}
+.list{
+    color: rgb(8, 157, 157);
+}
+button{
+    color:red;
+    background-color: transparent;
+    border-radius:4px;
+    margin-bottom: 5%;
+    text-shadow:1px 1px 2px navy;
+}
