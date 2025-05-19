@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    margin:0;
+}
 body{
     background-image: url(../images/ships.png);
     background-size: cover;
@@ -7,57 +11,66 @@ body{
 header{
     text-align: center;
 }
+#battleship-grid {
+    border-collapse: collapse;
+    margin: 20px;
+}
+#battleship-grid td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
 
-.container{
+#battleship-grid td.hit {
+    background-color: red;
+}
+/* .bigContainer{
+    display:flex;
+    /* justify-content: center; */ */
+/* } */
+/* .grid-container{
     display:grid;
-    grid-template-rows:120px 120px 120px ;
-    grid-template-columns:120px 120px 120px ;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    grid-gap:1px;
+    width:300px;
+    height:300px;
     justify-content: center;
+    border:solid 2px navy;
+    margin:1%;
     }
+.item{
+    line-height:30px;
+    border: 2px solid navy;
+    cursor:pointer;
+    background-color:rgba(211, 211, 211, 0.75) ;
+} */
+#battleship-grid {
+    border-collapse: collapse;
+    margin: 20px;
+}
 
-    .item1{
-    background-color:rgba(211, 211, 211, 0.75) ;
-    border:solid 2px navy;
-    
+#battleship-grid td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
 }
-    .item2{
-    background-color:rgba(211, 211, 211, 0.75) ;
-    border:solid 2px navy;
-    
+
+#battleship-grid td.hit {
+    background-color: red;
 }
-    .item3{
-    background-color:rgb(211, 211, 211, .75) ;
-    border:solid 2px navy;
-     
+#battleship-grid td.hit {
+    background-color: green;
 }
-    .item4{
-    
-    border:solid 2px navy; 
-    background-color:rgba(211, 211, 211, 0.75) ;
-}
-    .item5{
-    
-    border:solid 2px navy;
-    background-color:rgba(211, 211, 211, 0.75) ;
-}
-    .item6{
-    
-    border:solid 2px navy;
-    background-color:rgba(211, 211, 211, 0.75) ;
-}
-    .item7{
-    
-    border:solid 2px navy;
-    background-color:rgba(211, 211, 211, 0.75) ;
-}
-    .item8{
-    background-color:rgba(211, 211, 211, 0.75) ;
-    border:solid 2px navy;
-}
-    .item9{
-  background-color:rgba(211, 211, 211, 0.75) ;
-    border:solid 2px navy;
-}
+
+/* *******************************************
+let arrayEnemy =[A1, A2, A3 A4,B1, B2, B3 B4,C1, C2, C3 C4,D1, D2, D3 D4];
+
+/* *************************************** */
 #rules{
     text-align: center;
 }

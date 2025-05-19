@@ -9,28 +9,59 @@
 <body>
     <header role="heading">
         <div>
-            <img  class=ing-fluid src="./images/title (1).png" alt="battleship game title">
+            <img  class=img-fluid src="./images/title (1).png" alt="battleship game title">
         </div>
         <div>
             <a href="#rules"><button type="button">Click button to move to Rules</button></a>
         </div>
     </header>
-    <Main role="main" class=>
-    <div class="container">
-        <div class="item item1"></div>
-        <div class="item item2"></div>
-        <div class="item item3"></div>
-        <div class="item item4"></div>
-        <div class="item item5"></div>
-        <div class="item item6"></div>
-        <div class="item item7"></div>
-        <div class="item item8"></div>
-        <div class="item item9"></div>
-    </div>
-    <!-- bottom rules -->
-    <div class="list">
-     <h2 id="rules">RULES</h2>
-     <ol class="">
+    <Main role="main">
+        <table id="battleship-grid"></table>
+    <!-- <div class="container"> -->
+        <!-- <div class="grid-container" id="playerGrid">
+            <div class="item A1" id=" item"></div>
+            <div class="item A2" id="item"></div>
+            <div class="item A3" id="item"></div>
+            <div class="item A4" id="item"></div>
+            <div class="item A4" id="item"></div>
+            <div class="item B1" id="item"></div>
+            <div class="item B2" id="item"></div>
+            <div class="item B3" id="item"></div>
+            <div class="item B4" id="item"></div>
+            <div class="item C1" id="item"></div>
+            <div class="item C2" id="item"></div>
+            <div class="item C3" id="item"></div>
+            <div class="item C4" id="item"></div>
+            <div class="item D1"id="item"></div>
+            <div class="item D2" id="item"></div>
+            <div class="item D3"id="item"></div>
+            <div class="item D4"id="item"></div>
+        </div>
+        <div class="grid-container" id="enemyGrid">
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>
+            <div class="item" id="item"></div>       -->
+        <!-- </div> -->
+    <!-- </div> -->
+    <br>
+  
+    <Div>
+        <div class="list">
+        <h2 id="rules">RULES</h2>
+        <ol class="">
         <li>The computer randomly places the battleship behind one of the gray squares</li>
         <li>The player must click on the squares he believes is hidding the battleship.</li>
         <li>If the player choices the wrong, square the square will turn red.</li>
@@ -38,7 +69,9 @@
         <li>The player gets four(4) guesses before he/she loses the game.-GOODLUCK!</li>
      </ol>
     </div> 
+</Div>
 </Main>
     <script src="./JS/app.js"></script>
-</body>
+    
+</bod
 </html>
